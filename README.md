@@ -111,7 +111,7 @@ proxy_net/
 
 ## 数据存储
 
-- **Windows**: `%APPDATA%/proxynet/`
+- **Windows**: `%APPDATA%/Roaming/proxynet/`
 - **Linux**: `~/.config/proxynet/`
 - **macOS**: `~/Library/Application Support/proxynet/`
 
