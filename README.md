@@ -2,22 +2,6 @@
 
 基于终端 TUI 的使用代理进行异地组网工具。支持 7 种代理协议的分享链接一键导入，底层使用 [sing-box](https://github.com/SagerNet/sing-box) 作为代理核心，通过分流路由实现内网 IP 走异地节点组网、公网 IP 直连或转发到其他本地代理。
 
-```
-┌─ ProxyNet 异地组网 ─────────────────────────────────────────────┐
-│ Engine: 🟢 Running | Proxy: 127.0.0.1:10810 | SysProxy: OFF    │
-├─────────────────────────────────────────────────────────────────┤
-│ Nodes                           │ Details                      │
-│ 🟢 Test-Node  VLESS  45ms      │ Name: Test-Node              │
-│                                 │ Type: VLESS                  │
-│                                 │ Host: andyserv.com:50081     │
-│ [i] Import  [d] Delete  [t] Test│                              │
-│ [s] Start   [r] Routing [p] Sys │ ⚙️ Engine Control            │
-│ [l] Logs    [q] Quit            │ ▶ Start    ⏹ Stop           │
-│                                 │                              │
-│                                 │ 📋 Open Log Viewer           │
-└─────────────────────────────────┴──────────────────────────────┘
-```
-
 ## 功能
 
 | 功能 | 说明 |
@@ -48,8 +32,8 @@ python main.py
 
 首次运行自动：
 1. 检测 Python 版本
-2. `pip install` 缺失依赖
-3. 下载 sing-box 到 `bin/` 目录
+2. 自动安装缺失依赖
+3. 自动下载 sing-box 到 `bin/` 目录
 
 ### 使用流程
 
