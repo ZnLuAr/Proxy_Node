@@ -1,4 +1,4 @@
-# ProxyNet — 异地组网代理管理工具
+# ProxyNet — 异地代理组网工具
 
 基于终端 TUI 的使用代理进行异地组网工具。支持 7 种代理协议的分享链接一键导入，底层使用 [sing-box](https://github.com/SagerNet/sing-box) 作为代理核心，通过分流路由实现内网 IP 走异地节点组网、公网 IP 直连或转发到其他本地代理。
 
