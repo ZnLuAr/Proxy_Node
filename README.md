@@ -123,3 +123,5 @@ proxy_net/
 ## 许可证
 
 MIT
+
+##Made By 被学校限制wireguard搞到无语的大学生
